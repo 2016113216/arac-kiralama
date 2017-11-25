@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Super Rent a Car</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,300%7CLibre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/settings.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/simple-line-icons.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.timepicker.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.selectBox.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/global.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+		<link rel="stylesheet" type="text/less" href="assets/css/skin.less">
+        <asp:ContentPlaceHolder ID="head" runat="server">
+   
+	<body data-ng-app="themeonApp">
+
+    <!--Loader Start-->
+		<div class="loader">
+		<div class="sk-circle">
+		<div class="sk-circle1 sk-child"></div>
+		<div class="sk-circle2 sk-child"></div>
+		<div class="sk-circle3 sk-child"></div>
+		<div class="sk-circle4 sk-child"></div>
+		<div class="sk-circle5 sk-child"></div>
+		<div class="sk-circle6 sk-child"></div>
+		<div class="sk-circle7 sk-child"></div>
+		<div class="sk-circle8 sk-child"></div>
+		<div class="sk-circle9 sk-child"></div>
+		<div class="sk-circle10 sk-child"></div>
+		<div class="sk-circle11 sk-child"></div>
+		<div class="sk-circle12 sk-child"></div>
+		</div>
+		</div>
+        <!--Loader End-->
+        
+       	<!--Page Wrapper Start-->
+		<div id="wrapper" class="home" >
+            
+                        <!--Header Section Start-->
+                        <header id="header" class="header">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-xs-12">
+                                        <div class="header-cont clearfix">
+                                            <a href="index.html" class="logo"> <img src="assets/images/logo.png" alt=""/> </a>
+                                            <div class="header-info">
+                                                <div class="social-content clearfix">
+                                                    <div class="contact-det hidden-xs">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="tel:+88001234567">+90 555 55 55 </a>/
+                                                            </li>
+                                                            <li>
+                                                                <a href="mailto:mail@letsdrive.com">mail@superrentacar.com</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="social-det">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                            </li>
+            
+                                                        </ul>
+                                                        <div class="login">
+                                                            <a href="#"><span>Giriş Yap</span><i class="fa fa-lock" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <nav class="navbar">
+            
+                                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                                    <div class="navbar-header">
+                                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                            <span class="sr-only">Toggle navigation</span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                        </button>
+                                                    </div>
+            
+                                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                        <ul class="nav navbar-nav navigation clearfix">
+            
+                                                            <li>
+                                                                <a href="index.html">Anasayfa</a>
+                                                            </li>
+            
+                                                            <li>
+                                                                <a href="araclar.html">Araçlar </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hakkimizda.html">Hakkımızda</a>
+                                                            </li>
+            
+                                                            <li class="active">
+                                                                <a href="iletisim.html">İletişim</a>
+                                                            </li>
+            
+                                                        </ul>
+                                                        <div class="header-search">
+                                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                                            <input type="text" class="search-bar" placeholder="Arama yapın..." />
+                                                        </div>
+                                                    </div><!-- /.navbar-collapse -->
+            
+                                                </nav>
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+                        <!--Header Section End-->
+            
+                        <!--Content Section Start-->
+                        <div id="content">
+                            <section class="banner2 banner-margin-zero">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 ">
+                                            <h1>BİZİMLE İLETİŞİME GEÇİN</h1>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <ol class="breadcrumb">
+                                                <li>
+                                                    <a href="index.html">Anasayfa </a>
+                                                </li>
+                                                <li class="active">
+                                                    Bizimle İletişime Geçin
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+            
+                            <section class="about-few-words">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-7">
+                                            <h5 class="view-title-style"> Hakkımızda Birkça Bilgi</h5>
+                                            <div class="about-contact-para">
+                                                <p>
+                                                    Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy idю
+                                                </p>
+                                                <p>
+                                                    Imperdiet feugiat, pede. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.
+                                                </p>
+                                            </div>
+            
+                                        </div>
+                                        <div class="col-xs-12 col-sm-5">
+                                            <div class="about-us-quote clearfix">
+                                                <figure><img src="assets/images/contact-quote.jpg" alt="contact-quote" />
+                                                </figure>
+                                                <div class="quote-wrap">
+                                                    <p>
+                                                        Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p>
+                                                Nullam nulla eros, ultricies sit amet, nonummy id Imperdiet feugiat, pede. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui.
+                                            </p>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+            
+                            <section class="contact-us-map">
+                                <div id="map-view1"></div>
+                                <div class="contact-us-wrapper contact-page-form">
+                                    <div class="container">
+                                        <div class="map-form-inner">
+                                            <h2><span>Bizimle</span> İLETİŞİME GEÇİN</h2>
+                                            <div class="contact-us">
+                                                <form name="contactForm" method="post"  novalidate id="contact" class="contact-form" data-ng-controller='themeonCtrl'>
+                                                    <div class="row">
+                                                        <div class="col-sm-4">
+                                                            <div class="input-text-wrap">
+                                                                <input type="text" placeholder="Ad" id="name" class="contact-name" name="name" required data-ng-model="contactformData.name"  data-ng-class="{'error' : contactForm.name.$error.pattern || submit && contactForm.name.$invalid}" />
+                                                                <i class="fa fa-user" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="input-text-wrap">
+                                                                <input type="email" placeholder="Eposta"  id="email" class="contact-mail" name="email"  required data-ng-model="contactformData.email" data-ng-class="{'error' : contactForm.email.$error.pattern || submit && contactForm.email.$invalid}"/>
+                                                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="input-text-wrap">
+                                                                <input type="text" placeholder="Konu" id="sub" class="contact-subject" name="subject" required data-ng-model="contactformData.subject" data-ng-class="{'error' : contactForm.subject.$error.required && contactForm.subject.$blured || submit && contactForm.subject.$invalid}" />
+                                                                <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                            </div>
+            
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                            <div class="textarea-wrap">
+                                                                <textarea placeholder="Mesajınız veya İncelemeniz" id="message" name="message" data-ng-model="contactformData.message" required data-ng-class="{'error' : contactForm.message.$error.required && contactForm.message.$blured || submit && contactForm.message.$invalid}"></textarea>
+                                                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                            </div>
+            
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="row">
+                                                        <div class="col-sm-4">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. Aenean massa.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                            <button type="submit"  class="orange-btn"  data-ng-click="submitcontactForm(contactForm.$invalid)" data-ng-disabled="submitButtonDisabled">
+                                                                <i class="fa fa-plus-circle" aria-hidden="true"></i>Mesajı gönder
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div id="contactSuccess" style="display: none;">
+                                                    <span>Hey! Thanks for reaching out. I will get back to you soon</span>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+            
+                            </section>
+            
+                        </div>
+                        <!--Content Section End-->
+
+        <!--Footer Section start-->
+        <footer id="footer" class="bdr-0">
+            
+            <div class="footer-bottom text-center">
+                <div class="container">
+                    <span>&copy; All Rights Reserved.</span>
+                </div>
+            </div>
+
+        </footer>
+
+            <!--Footer Section End-->
+        </div>
+
+        <!--Page Wrapper End-->
+        <script type="text/javascript" src="assets/js/angular.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.timepicker.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/less.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript" src="assets/js/jquery.selectBox.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+
+        <!-- revolution slider Js -->
+        <script type="text/javascript" src="assets/js//jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.revolution.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.video.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="assets/extensions/revolution.extension.parallax.min.js"></script>
+        <!--  revolution slider Js -->
+        <!-- map                     -->
+        <script type="text/javascript" src="assets/js/map.js"></script>
+        
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <!-- map                     -->
+        <script type="text/javascript" src="assets/js/site.js"></script>
+
+    </body>
+</html>
+            
